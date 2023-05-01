@@ -7,12 +7,22 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="/main">
-        <label for="fname">First name:</label>
-        <input type="text" id="fname" name="fname"><br><br>
-        <label for="lname">Last name:</label>
-        <input type="text" id="lname" name="lname"><br><br>
-        <input type="submit" value="Submit">
-    </form>
+    <div style="height: auto; width: 50%; border:1px solid black;">
+        &nbsp;JOIN<br><br>
+        <form action="/test" method="get">
+            &nbsp;<label for="id" width="600">ID:&nbsp</label>
+            <input type="text" name="id"><br><br>
+            &nbsp;<label for="pw">PW:&nbsp</label>
+            <input type="text" name="pw"><br><br>
+            &nbsp;<label for="name">name:</label>
+            <input type="text" name="name"><br><br>
+            &nbsp;<label for="email">email:</label>
+            <input type="text" name="email"><br><br>
+            &nbsp;<label for="phone">phone:</label>
+            <input type="text" name="phone"><br><br>
+            &nbsp;<input type="submit" value="Submit">
+            <br><br>
+        </form>
+    </div>
 </body>
 </html>

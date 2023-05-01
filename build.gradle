@@ -27,6 +27,8 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	implementation 'javax.servlet:jstl'
     implementation "org.apache.tomcat.embed:tomcat-embed-jasper"
+	runtimeonly 'com.h2database:h2:'
+	implementation 'mysql:mysql-connector-java'
 }
 
 tasks.named('test') {

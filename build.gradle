@@ -1,6 +1,6 @@
 plugins {
 	id 'java'
-	id 'org.springframework.boot' version '2.7.11'
+	id 'org.springframework.boot' version '2.7.12'
 	id 'io.spring.dependency-management' version '1.0.15.RELEASE'
 }
 
@@ -27,8 +27,7 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	implementation 'javax.servlet:jstl'
     implementation "org.apache.tomcat.embed:tomcat-embed-jasper"
-	runtimeonly 'com.h2database:h2:'
-	implementation 'mysql:mysql-connector-java'
+	runtimeOnly 'com.mysql:mysql-connector-j'
 }
 
 tasks.named('test') {
